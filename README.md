@@ -50,7 +50,7 @@ SAS:
 ### Verification of pending payout utility script
 
 ```shell
-$ python3 ./sol001-py-pendingpayout/pendingPayout.py -a 5GNJqTPyNqANBkUVMN1LPPrxXnFouWXoe2wNSmmEoLctxiZY -d 5
+$ python3 ./src/pendingPayout.py -a 5GNJqTPyNqANBkUVMN1LPPrxXnFouWXoe2wNSmmEoLctxiZY -d 5
 Loading pending payouts of account 5GNJqTPyNqANBkUVMN1LPPrxXnFouWXoe2wNSmmEoLctxiZY ...
 Account 5GNJqTPyNqANBkUVMN1LPPrxXnFouWXoe2wNSmmEoLctxiZY received 0 payouts for 5 era(s).
 Total payout unclaimed is 0.000mKSM
@@ -68,7 +68,7 @@ Total payout unclaimed is 0.000mKSM
 ### Verification of pending payout utility script
 
 ```shell
-python3 ./sol001-py-pendingpayout/pendingPayout.py --all
+python3 ./src/pendingPayout.py --all
 Get address of last block ...
 Loading pending payouts of account FFdDXFK1VKG5QgjvqwxdVjo8hGrBveaBFfHnWyz1MAmLL82 ...
 Account FFdDXFK1VKG5QgjvqwxdVjo8hGrBveaBFfHnWyz1MAmLL82 received 8 payouts for 8 era(s).
