@@ -7,7 +7,7 @@
 ## HOWTO use the script
 
 ```shell
-$ python3 ./sol001-py-pendingpayout/pendingPayout.py --help
+$ python3 ./src/pendingPayout.py --help
 pendingPayout.py [-s <sidecarUrl>] [-a <accountId>] [-d <depth>] [-e <era>] [-c]
 
 ```
